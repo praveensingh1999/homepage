@@ -1,0 +1,120 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif ;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60),rgba(0, 0, 0, 0.60)),url("backimage.jpg");
+    background-size:cover;
+
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+ 
+}
+.logo h2{
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #f0eae9;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+
+}
+.menu a{
+    text-decoration: none;
+    font-size: 22px;
+    letter-spacing: 3px;
+    padding: 15px 20px;
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+    word-spacing: 5px;
+    
+
+
+ }
+#active{
+    background-color: #004d4d;
+    color: #fff;
+
+}
+.menu a:hover{
+    background-color: #004d4d;
+    transition: 0.5s;
+ } 
+.Hire-us a{
+    text-decoration: none;
+    padding: 15px 28px;
+    font-size: 22px;
+    letter-spacing: 3px;
+    color: white;
+    background-color: #00ffe7;
+    border-radius: 5px;
+      
+} 
+
+.Hire-us a:hover{
+    background-color: #1f1d1d;
+    transition: 0.5s;
+ } 
+ .body
+ {
+     padding: top 100px;
+     text-align: center;
+
+ }
+ .body h1{
+     color: #fff;
+     font-size: 60px;
+     font-weight: bold;
+     letter-spacing: 5px;
+     word-spacing: 12px;
+
+ }
+ .body p{
+     width: 600px;
+     color: #fff;
+     font-size: 18px;
+     letter-spacing: 2px;
+     margin-left: 400px;
+
+ }
+ #read-more{
+     text-decoration: none;
+     margin-left: 30px;
+     color: #000;
+     font-size: 25px;
+     padding: 15px 50px;
+     border-radius: 30px;
+     background-color: rgb(231, 219,219);
+
+ }
+ .read-more :hover{
+    background-color: #fff;
+    
+ } 
+ #hire-us{
+     text-decoration: none;
+     margin-left: 30px;
+     color: #000;
+     font-size: 25px;
+     padding: 15px 50px;
+     border-radius: 30px;
+     background-color: #00ffe7;
+ }
+ .hire-us:hover{
+     background-color: aqua;
+
+ }
